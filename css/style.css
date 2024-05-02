@@ -1,0 +1,90 @@
+/*CSS reset settings here*/
+*{
+    margin: 10px;
+    padding: 20px;
+}
+.wrapper{
+    width: 80%;
+    background-color: silver;
+    margin: 0px auto;
+}
+.header{
+    min-height: 150px;
+    background-color: green;
+    margin: 30px;
+}
+.navigation{
+    display: inline-block;
+    min-height: 300px;
+    width: 150px;
+    background-color: blue;
+    margin: 10px 0px 10px 30px ;
+}
+.main_content{
+    vertical-align: top;
+    display: inline-block;
+    min-height: 400px;
+    width: 700px;
+    background-color: red;
+    margin: 10px;
+    
+}
+.subcontents{
+    display: inline-block;
+    min-height: 200px;
+    width: 180px;
+    background-color: yellow;
+    margin: 5px ;
+    
+}
+.advertisement{
+    min-height: 120px;
+    width: 660px;
+    background-color: purple;
+    padding-right: 2px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+}
+@media only screen and (max-width:480px) {
+    .err{
+        display: none   ;
+    }
+    .lgc{
+    width: 80%;
+    }
+    .sm1{
+        width: 75%;
+    }
+}
+@media only screen and (min-width:481px) {
+    .err{
+        display: none   ;
+    }
+    .lgc{
+        width: 90%;
+    }
+    .med1{
+        width: 27%;
+    }
+    .lgc1{
+        width: 90%;
+    }
+
+}
+@media only screen and (min-width:1024px) {
+    .err{
+        display: inline-block;
+    }
+    .lg1{
+        width: 24%;
+    }
+    .lgc{
+        width: 70%;
+    }
+    .lgc1{
+        width: 92%;
+    }
+    .lgc2{
+        width: 10%;
+    }
+}
